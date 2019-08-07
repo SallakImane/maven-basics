@@ -45,7 +45,7 @@
         <executions>
           <execution>
           <id>make-assembly</id>
-                                        <!-- bind to the packaging phase -->
+         <!-- bind to the packaging phase -->
           <phase>package</phase> 
           <goals>
             <goal>single</goal>
@@ -53,8 +53,6 @@
           </execution>
         </executions>
       </plugin>
-
-
     </plugins>
  </build>
 
@@ -65,13 +63,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
     <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-text</artifactId>
     <version>1.7</version>
-</dependency>
-  </dependencies>
+   </dependency>
+</dependencies>
 
 
 </project>
