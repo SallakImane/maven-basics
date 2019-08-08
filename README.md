@@ -11,7 +11,7 @@ Example project of how to use maven to deploy jar file.
 
 2. Add in file pom.xml the plugins like :
 
-  + `maven-compiler-plugin` : is used to compile the sources of project.
+  + `maven-compiler-plugin` : set compiler support java 11 .
 
   + `maven-assembly-plugin` : is used to create archives of project sources, classes, dependencies (get all dependencies and mainClass in manifest) from flexible assembly descriptors.
 
