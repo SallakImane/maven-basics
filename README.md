@@ -3,6 +3,13 @@
 
 Example project of how to use maven to deploy jar file.
 
+#### File structure :
+
+    + `jar` file contains : 
+
+        > `META-INF/`       : this directory contains MANIFEST.MF
+        > `*.class / *.jar` : All compiled classes and 3rt paty libraries
+
 # Getting Started 
 
 1. Generate a new project from an archetype with this command:
