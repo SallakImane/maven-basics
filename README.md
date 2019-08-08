@@ -31,4 +31,4 @@ Example project of how to use maven to deploy jar file.
 		java -jar target/project-2-1.0-SNAPSHOT-jar-with-dependencies.jar 
 
 # Authors
- + **Sallak Imane** 
+ + [**Sallak Imane**](https://github.com/SallakImane) 
